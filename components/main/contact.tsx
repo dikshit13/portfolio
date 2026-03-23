@@ -215,7 +215,7 @@ export const Contact = () => {
             whileInView="visible"
             className="bg-gradient-to-br from-purple-600/20 to-cyan-600/20 rounded-lg p-4 sm:p-6 md:p-8 border border-[#7042f88b]/50"
           >
-            <h3 className="text-xl sm:text-2xl font-semibold text-purple-400 mb-6\">
+            <h3 className="text-xl sm:text-2xl font-semibold text-purple-400 mb-6">
               Contact Information
             </h3>
 

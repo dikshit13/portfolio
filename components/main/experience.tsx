@@ -63,7 +63,7 @@ export const Experience = () => {
                   <div className="flex items-start gap-3 mb-2">
                     <BriefcaseIcon className="w-6 h-6 text-purple-400 flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="text-xl sm:text-2xl font-bold text-white group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-purple-400 group-hover:to-cyan-400 transition-all duration-300\">
+                      <h3 className="text-xl sm:text-2xl font-bold text-white group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-purple-400 group-hover:to-cyan-400 transition-all duration-300">
                         {exp.title}
                       </h3>
                       <div className="flex items-center gap-2 mt-1">

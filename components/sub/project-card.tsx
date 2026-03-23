@@ -55,7 +55,7 @@ export const ProjectCard = ({
 
         {/* Content Container */}
         <div className="relative flex-1 p-4 sm:p-5 md:p-6 flex flex-col bg-gradient-to-br from-[#0a0015]/80 to-[#0a0015]/40 backdrop-blur-sm border-t border-[#7042f88b]/10">
-          <h2 className="text-lg sm:text-xl font-bold text-white mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-purple-400 group-hover:to-cyan-400 transition-all duration-300 line-clamp-2\">
+          <h2 className="text-lg sm:text-xl font-bold text-white mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-purple-400 group-hover:to-cyan-400 transition-all duration-300 line-clamp-2">
             {title}
           </h2>
 

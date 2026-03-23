@@ -21,10 +21,10 @@ export const HeroContent = () => {
       <div className="h-full w-full md:flex-1 flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]]"
+          className="Welcome-box py-2 sm:py-3 px-3 sm:px-4 border border-[#7042f88b] opacity-90 rounded-full"
         >
-          <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-          <h1 className="Welcome-text text-[13px]">
+          <SparklesIcon className="text-[#b49bff] mr-2 sm:mr-3 h-4 w-4 sm:h-5 sm:w-5" />
+          <h1 className="Welcome-text text-[11px] sm:text-[13px] md:text-sm">
             Full Stack Developer | MERN Stack | DSA Enthusiast
           </h1>
         </motion.div>
