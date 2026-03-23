@@ -13,6 +13,13 @@ import {
   TOOLS_SKILL,
 } from "@/constants";
 
+type SkillItem = {
+  readonly skill_name: string;
+  readonly image: string;
+  readonly width: number;
+  readonly height: number;
+};
+
 const SkillCategory = ({
   title,
   icon,
@@ -21,7 +28,7 @@ const SkillCategory = ({
 }: {
   title: string;
   icon: string;
-  skills: typeof FRONTEND_SKILL;
+  skills: readonly SkillItem[];
   delay: number;
 }) => {
   return (
