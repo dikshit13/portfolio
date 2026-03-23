@@ -127,6 +127,7 @@ Useful resources and dependencies that are used in Space Portfolio.
 - [@types/node](https://www.npmjs.com/package/@types/node): ^25
 - [@types/react](https://www.npmjs.com/package/@types/react): 19.2.14
 - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom): 19.2.3
+- [@vercel/analytics](https://www.npmjs.com/package/@vercel/analytics): ^2.0.1
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): ^10.4.27
 - [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
 - [eslint](https://www.npmjs.com/package/eslint): ^10.0.3
