@@ -70,6 +70,7 @@ space-portfolio/
   |- build-output.txt
   |- build.log
   |- eslint.config.mjs
+  |- latest-build.log
   |- netlify.toml
   |- next.config.js
   |- package-lock.json
