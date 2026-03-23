@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="restGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B6B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#EE5A3F;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="url(#restGrad)" opacity="0.15"/>
+  
+  <!-- Central node -->
+  <circle cx="64" cy="64" r="12" fill="#FF6B6B"/>
+  
+  <!-- Top node -->
+  <circle cx="64" cy="24" r="10" fill="#FF6B6B"/>
+  <line x1="64" y1="34" x2="64" y2="52" stroke="#FF6B6B" stroke-width="2"/>
+  
+  <!-- Bottom node -->
+  <circle cx="64" cy="104" r="10" fill="#FF6B6B"/>
+  <line x1="64" y1="76" x2="64" y2="94" stroke="#FF6B6B" stroke-width="2"/>
+  
+  <!-- Left node -->
+  <circle cx="24" cy="64" r="10" fill="#FF6B6B"/>
+  <line x1="34" y1="64" x2="52" y2="64" stroke="#FF6B6B" stroke-width="2"/>
+  
+  <!-- Right node -->
+  <circle cx="104" cy="64" r="10" fill="#FF6B6B"/>
+  <line x1="76" y1="64" x2="94" y2="64" stroke="#FF6B6B" stroke-width="2"/>
+  
+  <!-- Top-left node -->
+  <circle cx="36" cy="40" r="8" fill="#FF6B6B"/>
+  <line x1="44" y1="48" x2="56" y2="56" stroke="#FF6B6B" stroke-width="2"/>
+  
+  <!-- Top-right node -->
+  <circle cx="92" cy="40" r="8" fill="#FF6B6B"/>
+  <line x1="84" y1="48" x2="72" y2="56" stroke="#FF6B6B" stroke-width="2"/>
+  
+  <!-- Bottom-left node -->
+  <circle cx="36" cy="88" r="8" fill="#FF6B6B"/>
+  <line x1="44" y1="80" x2="56" y2="72" stroke="#FF6B6B" stroke-width="2"/>
+  
+  <!-- Bottom-right node -->
+  <circle cx="92" cy="88" r="8" fill="#FF6B6B"/>
+  <line x1="84" y1="80" x2="72" y2="72" stroke="#FF6B6B" stroke-width="2"/>
+</svg>
