@@ -10,7 +10,7 @@ export const About = () => {
   return (
     <section
       id="about-me"
-      className="flex flex-col items-center justify-center py-20 px-10"
+      className="flex flex-col items-center justify-center py-20 px-4 sm:px-8 md:px-10 lg:px-10"
     >
       <motion.div
         variants={slideInFromTop}
@@ -24,19 +24,19 @@ export const About = () => {
         </h1>
       </motion.div>
 
-      <div className="w-full max-w-4xl flex flex-col md:flex-row gap-10 items-center">
+      <div className="w-full max-w-4xl flex flex-col md:flex-row gap-6 md:gap-10 items-center">
         {/* About Content */}
         <motion.div
           variants={slideInFromLeft(0.3)}
           initial="hidden"
           whileInView="visible"
-          className="flex flex-col gap-6 flex-1"
+          className="flex flex-col gap-6 flex-1 w-full order-2 md:order-1"
         >
-          <h2 className="text-4xl font-bold text-white">
+          <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold text-white">
             Dikshit Kamboj
           </h2>
           
-          <p className="text-lg text-gray-400 leading-relaxed">
+          <p className="text-base sm:text-lg text-gray-400 leading-relaxed">
             I&apos;m a Computer Science student at Lovely Professional University, 
             passionate about full-stack development and problem-solving. With a strong 
             foundation in the MERN stack and competitive programming, I love building 
@@ -45,22 +45,22 @@ export const About = () => {
 
           <div className="space-y-4">
             <div className="flex flex-col gap-2">
-              <h3 className="text-xl font-semibold text-purple-400">
+              <h3 className="text-lg sm:text-xl font-semibold text-purple-400">
                 🎓 Education
               </h3>
-              <p className="text-gray-300">
+              <p className="text-sm sm:text-base text-gray-300">
                 B.Tech in Computer Science
               </p>
-              <p className="text-gray-400 text-sm">
+              <p className="text-xs sm:text-sm text-gray-400">
                 Lovely Professional University (2023–Present) | CGPA: 7.11
               </p>
             </div>
 
             <div className="flex flex-col gap-2">
-              <h3 className="text-xl font-semibold text-purple-400">
+              <h3 className="text-lg sm:text-xl font-semibold text-purple-400">
                 🏆 Achievements
               </h3>
-              <ul className="text-gray-300 space-y-2">
+              <ul className="text-gray-300 space-y-2 text-sm sm:text-base">
                 <li>✓ Solved 250+ DSA problems across LeetCode, GeeksforGeeks, HackerRank</li>
                 <li>✓ 4⭐ in C++ and Python on HackerRank</li>
                 <li>✓ 5th position in Hackaverse-LPU hackathon</li>
@@ -68,14 +68,14 @@ export const About = () => {
             </div>
 
             <div className="flex flex-col gap-2">
-              <h3 className="text-xl font-semibold text-purple-400">
+              <h3 className="text-lg sm:text-xl font-semibold text-purple-400">
                 🎯 Soft Skills
               </h3>
               <div className="flex flex-wrap gap-2">
                 {SOFT_SKILLS.map((skill) => (
                   <span
                     key={skill}
-                    className="px-3 py-1 bg-[#7042f88b]/30 text-gray-300 rounded-full text-sm border border-[#7042f88b]/50"
+                    className="px-3 py-1 bg-[#7042f88b]/30 text-gray-300 rounded-full text-xs sm:text-sm border border-[#7042f88b]/50"
                   >
                     {skill}
                   </span>
@@ -84,12 +84,12 @@ export const About = () => {
             </div>
 
             <div className="flex flex-col gap-2">
-              <h3 className="text-xl font-semibold text-purple-400">
+              <h3 className="text-lg sm:text-xl font-semibold text-purple-400">
                 📧 Contact
               </h3>
-              <p className="text-gray-300">Email: dixitkamboj7@gmail.com</p>
-              <p className="text-gray-300">GitHub: github.com/dikshit13</p>
-              <p className="text-gray-300">LinkedIn: linkedin.com/in/dikshit1</p>
+              <p className="text-sm sm:text-base text-gray-300">Email: dixitkamboj7@gmail.com</p>
+              <p className="text-sm sm:text-base text-gray-300">GitHub: github.com/dikshit13</p>
+              <p className="text-sm sm:text-base text-gray-300">LinkedIn: linkedin.com/in/dikshit1</p>
             </div>
           </div>
         </motion.div>
@@ -103,7 +103,7 @@ export const About = () => {
         >
           {/* Profile Image Container with Enhanced Theming & Animation */}
           <motion.div 
-            className="relative w-64 h-64 md:w-80 md:h-80 cursor-pointer"
+            className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 cursor-pointer\"
             whileHover="hover"
             initial="initial"
             variants={{

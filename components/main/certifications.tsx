@@ -26,11 +26,11 @@ export const Certifications = () => {
           <span className="text-sm font-semibold text-purple-300">Credentials</span>
         </div>
 
-        <h2 className="text-4xl md:text-5xl font-bold text-white">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
           Certifications & Courses
         </h2>
 
-        <p className="text-lg text-gray-400 leading-relaxed">
+        <p className="text-base sm:text-lg text-gray-400 leading-relaxed">
           Professional certifications and specialized training from leading institutions demonstrating continuous learning and expertise.
         </p>
       </motion.div>
@@ -46,7 +46,7 @@ export const Certifications = () => {
             whileHover={{ y: -5 }}
             className="group h-full"
           >
-            <div className="relative h-full bg-gradient-to-br from-purple-600/10 to-cyan-600/10 rounded-2xl p-6 border border-[#7042f88b]/30 hover:border-[#7042f88b]/60 transition-all duration-300 hover:shadow-[0_0_25px_rgba(112,66,248,0.2)]">
+            <div className="relative h-full bg-gradient-to-br from-purple-600/10 to-cyan-600/10 rounded-2xl p-4 sm:p-5 md:p-6 border border-[#7042f88b]/30 hover:border-[#7042f88b]/60 transition-all duration-300 hover:shadow-[0_0_25px_rgba(112,66,248,0.2)]">
               {/* Top Section with Logo and Link Icon */}
               <div className="flex items-center justify-between gap-3 mb-4">
                 <div className="flex items-center gap-3">

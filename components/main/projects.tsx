@@ -24,11 +24,11 @@ export const Projects = () => {
           <span className="text-sm font-semibold text-purple-300">Portfolio</span>
         </div>
 
-        <h2 className="text-4xl md:text-5xl font-bold text-white">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
           Featured Projects
         </h2>
 
-        <p className="text-lg text-gray-400 leading-relaxed">
+        <p className="text-base sm:text-lg text-gray-400 leading-relaxed">
           Showcasing innovative full-stack applications and systems that demonstrate technical expertise and problem-solving abilities.
         </p>
       </motion.div>

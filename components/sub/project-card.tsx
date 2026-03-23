@@ -34,7 +34,7 @@ export const ProjectCard = ({
     >
       <div className="relative overflow-hidden rounded-2xl shadow-xl border border-[#7042f88b]/30 hover:border-[#7042f88b]/60 group h-full flex flex-col transition-all duration-300 hover:shadow-[0_0_30px_rgba(112,66,248,0.3)]">
         {/* Image Container */}
-        <div className="relative w-full h-64 overflow-hidden bg-gradient-to-br from-purple-600/10 to-cyan-600/10">
+        <div className="relative w-full h-40 sm:h-48 md:h-64 overflow-hidden bg-gradient-to-br from-purple-600/10 to-cyan-600/10">
           <motion.div
             className="w-full h-full"
             whileHover={{ scale: 1.1 }}
@@ -54,8 +54,8 @@ export const ProjectCard = ({
         </div>
 
         {/* Content Container */}
-        <div className="relative flex-1 p-6 flex flex-col bg-gradient-to-br from-[#0a0015]/80 to-[#0a0015]/40 backdrop-blur-sm border-t border-[#7042f88b]/10">
-          <h2 className="text-xl font-bold text-white mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-purple-400 group-hover:to-cyan-400 transition-all duration-300 line-clamp-2">
+        <div className="relative flex-1 p-4 sm:p-5 md:p-6 flex flex-col bg-gradient-to-br from-[#0a0015]/80 to-[#0a0015]/40 backdrop-blur-sm border-t border-[#7042f88b]/10">
+          <h2 className="text-lg sm:text-xl font-bold text-white mb-3 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-purple-400 group-hover:to-cyan-400 transition-all duration-300 line-clamp-2\">
             {title}
           </h2>
 

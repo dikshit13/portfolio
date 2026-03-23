@@ -190,7 +190,7 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="flex flex-col items-center justify-center py-20 px-10"
+      className="flex flex-col items-center justify-center py-20 px-4 sm:px-8 md:px-10"
     >
       <motion.div
         variants={slideInFromTop}
@@ -202,7 +202,7 @@ export const Contact = () => {
         <h1 className="Welcome-text text-[13px]">Get in Touch</h1>
       </motion.div>
 
-      <h2 className="text-4xl font-bold text-white mb-10 text-center">
+      <h2 className="text-3xl sm:text-4xl font-bold text-white mb-10 text-center">
         Contact Me
       </h2>
 
@@ -213,9 +213,9 @@ export const Contact = () => {
             variants={slideInFromLeft(0.3)}
             initial="hidden"
             whileInView="visible"
-            className="bg-gradient-to-br from-purple-600/20 to-cyan-600/20 rounded-lg p-8 border border-[#7042f88b]/50"
+            className="bg-gradient-to-br from-purple-600/20 to-cyan-600/20 rounded-lg p-4 sm:p-6 md:p-8 border border-[#7042f88b]/50"
           >
-            <h3 className="text-2xl font-semibold text-purple-400 mb-6">
+            <h3 className="text-xl sm:text-2xl font-semibold text-purple-400 mb-6\">
               Contact Information
             </h3>
 
@@ -303,7 +303,7 @@ export const Contact = () => {
             initial="hidden"
             whileInView="visible"
             onSubmit={handleSubmit}
-            className="bg-gradient-to-br from-purple-600/10 to-cyan-600/10 rounded-lg p-8 border border-[#7042f88b]/50 backdrop-blur-sm"
+            className="bg-gradient-to-br from-purple-600/10 to-cyan-600/10 rounded-lg p-4 sm:p-6 md:p-8 border border-[#7042f88b]/50 backdrop-blur-sm"
           >
             {/* Name Field */}
             <div className="mb-6">

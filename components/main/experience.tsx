@@ -26,11 +26,11 @@ export const Experience = () => {
           <span className="text-sm font-semibold text-purple-300">Experience</span>
         </div>
 
-        <h2 className="text-4xl md:text-5xl font-bold text-white">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
           Training & Experience
         </h2>
 
-        <p className="text-lg text-gray-400 leading-relaxed">
+        <p className="text-base sm:text-lg text-gray-400 leading-relaxed">
           Professional development journey showcasing hands-on experience and specialized training in modern technologies.
         </p>
       </motion.div>
@@ -57,13 +57,13 @@ export const Experience = () => {
             )}
 
             {/* Card */}
-            <div className="ml-8 bg-gradient-to-br from-purple-600/10 to-cyan-600/10 rounded-2xl p-8 border border-[#7042f88b]/30 hover:border-[#7042f88b]/60 transition-all duration-300 hover:shadow-[0_0_25px_rgba(112,66,248,0.2)]">
+            <div className="ml-8 bg-gradient-to-br from-purple-600/10 to-cyan-600/10 rounded-2xl p-4 sm:p-6 md:p-8 border border-[#7042f88b]/30 hover:border-[#7042f88b]/60 transition-all duration-300 hover:shadow-[0_0_25px_rgba(112,66,248,0.2)]">
               <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-4">
                 <div className="flex-1">
                   <div className="flex items-start gap-3 mb-2">
                     <BriefcaseIcon className="w-6 h-6 text-purple-400 flex-shrink-0 mt-1" />
                     <div>
-                      <h3 className="text-2xl font-bold text-white group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-purple-400 group-hover:to-cyan-400 transition-all duration-300">
+                      <h3 className="text-xl sm:text-2xl font-bold text-white group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-purple-400 group-hover:to-cyan-400 transition-all duration-300\">
                         {exp.title}
                       </h3>
                       <div className="flex items-center gap-2 mt-1">

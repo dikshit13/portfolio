@@ -26,11 +26,11 @@ export const Education = () => {
           <span className="text-sm font-semibold text-purple-300">Education</span>
         </div>
 
-        <h2 className="text-4xl md:text-5xl font-bold text-white">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
           Educational Background
         </h2>
 
-        <p className="text-lg text-gray-400 leading-relaxed">
+        <p className="text-base sm:text-lg text-gray-400 leading-relaxed">
           Academic journey demonstrating consistent excellence and commitment to learning across multiple educational levels.
         </p>
       </motion.div>
@@ -57,8 +57,8 @@ export const Education = () => {
             )}
 
             {/* Card */}
-            <div className="ml-8 bg-gradient-to-br from-purple-600/10 to-cyan-600/10 rounded-2xl p-8 border border-[#7042f88b]/30 hover:border-[#7042f88b]/60 transition-all duration-300 hover:shadow-[0_0_25px_rgba(112,66,248,0.2)]">
-              <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
+            <div className="ml-8 bg-gradient-to-br from-purple-600/10 to-cyan-600/10 rounded-2xl p-4 sm:p-6 md:p-8 border border-[#7042f88b]/30 hover:border-[#7042f88b]/60 transition-all duration-300 hover:shadow-[0_0_25px_rgba(112,66,248,0.2)]">
+              <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 sm:gap-6">
                 {/* Left side - Education Details */}
                 <div className="flex-1">
                   <div className="flex items-start gap-3 mb-3">

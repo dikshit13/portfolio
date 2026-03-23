@@ -24,32 +24,32 @@ export const Footer = () => {
   };
 
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] relative">
+    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-3 sm:p-4 md:p-[15px] relative">
       <div className="w-full flex flex-col items-center justify-center m-auto">
-        <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
+        <div className="w-full h-full flex flex-col sm:flex-row items-center justify-around flex-wrap gap-6 sm:gap-4">
           {FOOTER_DATA.map((column) => (
             <div
               key={column.title}
-              className="min-w-[200px] h-auto flex flex-col items-center justify-start"
+              className="min-w-[150px] sm:min-w-[200px] h-auto flex flex-col items-center justify-start"
             >
-              <h3 className="font-bold text-[16px]">{column.title}</h3>
+              <h3 className="font-bold text-sm sm:text-base">{column.title}</h3>
               {column.data.map(({ icon: Icon, name, link }) => (
                 <Link
                   key={`${column.title}-${name}`}
                   href={link}
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="flex flex-row items-center my-[15px]"
+                  className="flex flex-row items-center my-2 sm:my-[15px]"
                 >
-                  {Icon && <Icon />}
-                  <span className="text-[15px] ml-[6px]">{name}</span>
+                  {Icon && <Icon className="w-4 h-4 sm:w-5 sm:h-5" />}
+                  <span className="text-xs sm:text-sm ml-2 sm:ml-[6px]">{name}</span>
                 </Link>
               ))}
             </div>
           ))}
         </div>
 
-        <div className="mb-[20px] text-[15px] text-center">
+        <div className="mb-4 sm:mb-[20px] text-xs sm:text-sm text-center">
           &copy; Dikshit Kamboj {new Date().getFullYear()}. All rights reserved.
         </div>
 

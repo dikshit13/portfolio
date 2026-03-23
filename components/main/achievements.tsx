@@ -26,11 +26,11 @@ export const Achievements = () => {
           <span className="text-sm font-semibold text-purple-300">Accomplishments</span>
         </div>
 
-        <h2 className="text-4xl md:text-5xl font-bold text-white">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
           Achievements & Milestones
         </h2>
 
-        <p className="text-lg text-gray-400 leading-relaxed">
+        <p className="text-base sm:text-lg text-gray-400 leading-relaxed">
           Recognizing key accomplishments in competitive programming, hackathons, and technical skill development.
         </p>
       </motion.div>
@@ -46,7 +46,7 @@ export const Achievements = () => {
             whileHover={{ y: -10, scale: 1.02 }}
             className="group h-full"
           >
-            <div className="relative h-full bg-gradient-to-br from-purple-600/15 to-cyan-600/15 rounded-2xl p-8 border border-[#7042f88b]/30 hover:border-[#7042f88b]/60 transition-all duration-300 hover:shadow-[0_0_30px_rgba(112,66,248,0.25)] flex flex-col">
+            <div className="relative h-full bg-gradient-to-br from-purple-600/15 to-cyan-600/15 rounded-2xl p-4 sm:p-6 md:p-8 border border-[#7042f88b]/30 hover:border-[#7042f88b]/60 transition-all duration-300 hover:shadow-[0_0_30px_rgba(112,66,248,0.25)] flex flex-col\">
               {/* Icon Badge */}
               <motion.div
                 className="flex items-center justify-center w-16 h-16 rounded-xl bg-gradient-to-r from-purple-600/30 to-cyan-600/30 border border-[#7042f88b]/30 mx-auto mb-6"

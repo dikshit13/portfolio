@@ -40,12 +40,12 @@ const SkillCategory = ({
       className="w-full mb-16"
     >
       <div className="flex items-center gap-3 mb-8">
-        <div className="p-3 rounded-lg bg-gradient-to-r from-purple-600/20 to-cyan-600/20 border border-[#7042f88b]/50">
-          <span className="text-2xl">{icon}</span>
+        <div className="p-3 rounded-lg bg-gradient-to-r from-purple-600/20 to-cyan-600/20 border border-[#7042f88b]/50 flex-shrink-0">
+          <span className="text-xl sm:text-2xl">{icon}</span>
         </div>
         <div>
-          <h3 className="text-2xl font-bold text-white">{title}</h3>
-          <p className="text-sm text-gray-400">{skills.length} Skills</p>
+          <h3 className="text-xl sm:text-2xl font-bold text-white">{title}</h3>
+          <p className="text-xs sm:text-sm text-gray-400">{skills.length} Skills</p>
         </div>
       </div>
 
@@ -94,7 +94,7 @@ export const Skills = () => {
           <span className="text-sm font-semibold text-purple-300">Technical Expertise</span>
         </div>
 
-        <h2 className="text-4xl md:text-5xl font-bold text-white">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white">
           Skills & Technologies
         </h2>
 
