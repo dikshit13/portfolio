@@ -11,7 +11,7 @@ export const Experience = () => {
   return (
     <section
       id="experience"
-      className="flex flex-col items-center justify-center py-20 px-4 sm:px-10 relative overflow-hidden"
+      className="w-full flex flex-col items-center justify-center py-20 px-4 sm:px-10 relative overflow-hidden"
     >
       {/* Header */}
       <motion.div
@@ -35,7 +35,7 @@ export const Experience = () => {
         </p>
       </motion.div>
 
-      <div className="w-full max-w-4xl space-y-8">
+      <div className="w-full max-w-4xl mx-auto space-y-8">
         {EXPERIENCE.map((exp, index) => (
           <motion.div
             key={exp.company}

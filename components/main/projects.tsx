@@ -9,7 +9,7 @@ export const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex flex-col items-center justify-center py-20 px-4 sm:px-10 relative overflow-hidden"
+      className="w-full flex flex-col items-center justify-center py-20 px-4 sm:px-10 relative overflow-hidden"
     >
       {/* Header */}
       <motion.div
@@ -33,7 +33,7 @@ export const Projects = () => {
         </p>
       </motion.div>
 
-      <div className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="w-full max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         {PROJECTS.map((project, index) => (
           <motion.div
             key={project.title}

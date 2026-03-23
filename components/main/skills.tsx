@@ -79,7 +79,7 @@ export const Skills = () => {
   return (
     <section
       id="skills"
-      className="flex flex-col items-center justify-center py-20 px-4 sm:px-10 relative overflow-hidden"
+      className="w-full flex flex-col items-center justify-center py-20 px-4 sm:px-10 relative overflow-hidden"
     >
       {/* Header */}
       <motion.div
@@ -109,7 +109,7 @@ export const Skills = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        className="w-full max-w-6xl"
+        className="w-full max-w-6xl mx-auto"
       >
         {/* Programming Languages */}
         <SkillCategory

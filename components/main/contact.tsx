@@ -190,23 +190,23 @@ export const Contact = () => {
   return (
     <section
       id="contact"
-      className="flex flex-col items-center justify-center py-20 px-4 sm:px-8 md:px-10"
+      className="w-full flex flex-col items-center justify-center py-20 px-4 sm:px-8 md:px-10"
     >
       <motion.div
         variants={slideInFromTop}
         initial="hidden"
         whileInView="visible"
-        className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9] mb-10"
+        className="Welcome-box py-2 sm:py-3 px-3 sm:px-4 border border-[#7042f88b] opacity-90 rounded-full mb-10"
       >
-        <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
-        <h1 className="Welcome-text text-[13px]">Get in Touch</h1>
+        <SparklesIcon className="text-[#b49bff] mr-2 sm:mr-3 h-4 w-4 sm:h-5 sm:w-5" />
+        <h1 className="Welcome-text text-[11px] sm:text-[13px] md:text-sm">Get in Touch</h1>
       </motion.div>
 
       <h2 className="text-3xl sm:text-4xl font-bold text-white mb-10 text-center">
         Contact Me
       </h2>
 
-      <div className="w-full max-w-4xl">
+      <div className="w-full max-w-4xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Contact Info */}
           <motion.div

@@ -11,7 +11,7 @@ export const Achievements = () => {
   return (
     <section
       id="achievements"
-      className="flex flex-col items-center justify-center py-20 px-4 sm:px-10 relative overflow-hidden"
+      className="w-full flex flex-col items-center justify-center py-20 px-4 sm:px-10 relative overflow-hidden"
     >
       {/* Header */}
       <motion.div
@@ -35,7 +35,7 @@ export const Achievements = () => {
         </p>
       </motion.div>
 
-      <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
         {ACHIEVEMENTS.map((achievement, index) => (
           <motion.div
             key={achievement.title}
