@@ -30,7 +30,7 @@ export const About = () => {
           variants={slideInFromLeft(0.3)}
           initial="hidden"
           whileInView="visible"
-          className="flex flex-col gap-6 flex-1 w-full order-2 md:order-1"
+          className="flex flex-col gap-6 flex-1 w-full order-1 md:order-1"
         >
           <h2 className="text-3xl sm:text-4xl md:text-4xl font-bold text-white">
             Dikshit Kamboj
@@ -99,7 +99,7 @@ export const About = () => {
           variants={slideInFromRight(0.3)}
           initial="hidden"
           whileInView="visible"
-          className="flex-1 flex flex-col gap-8 items-center group"
+          className="flex-1 flex flex-col gap-8 items-center group order-2 md:order-2"
         >
           {/* Profile Image Container with Enhanced Theming & Animation */}
           <motion.div 
