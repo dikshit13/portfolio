@@ -131,7 +131,7 @@ export const DATABASES_SKILL = [
 export const TOOLS_SKILL = [
   {
     skill_name: "Git & GitHub",
-    image: "github.svg",
+    image: "github.png",
     width: 80,
     height: 80,
   },
