@@ -7,6 +7,7 @@ import Link from "next/link";
 import { RxGithubLogo, RxLinkedinLogo } from "react-icons/rx";
 import { AiOutlineEye } from "react-icons/ai";
 import { LINKS } from "@/constants";
+import { XIcon } from "@/components/sub/x-icon";
 import { useState, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -255,6 +256,14 @@ export const Contact = () => {
                       className="text-white hover:text-cyan-400 transition"
                     >
                       <RxLinkedinLogo className="h-6 w-6" />
+                    </a>
+                    <a
+                      href="https://x.com/dikshitkambojj"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-white hover:text-cyan-400 transition"
+                    >
+                      <XIcon className="h-6 w-6" />
                     </a>
                   </div>
                 </div>

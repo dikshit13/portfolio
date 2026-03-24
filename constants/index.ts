@@ -3,9 +3,9 @@ import {
   RxDiscordLogo,
   RxGithubLogo,
   RxInstagramLogo,
-  RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
+import { XIcon } from "@/components/sub/x-icon";
 
 export const SKILL_DATA = [
   {
@@ -44,6 +44,11 @@ export const SOCIALS = [
     name: "LinkedIn",
     icon: RxLinkedinLogo,
     link: "https://linkedin.com/in/dikshit1",
+  },
+  {
+    name: "Twitter",
+    icon: XIcon,
+    link: "https://x.com/dikshitkambojj",
   },
 ] as const;
 
@@ -282,6 +287,11 @@ export const FOOTER_DATA = [
         name: "LinkedIn",
         icon: RxLinkedinLogo,
         link: "https://linkedin.com/in/dikshit1",
+      },
+      {
+        name: "Twitter",
+        icon: XIcon,
+        link: "https://x.com/dikshitkambojj",
       },
     ],
   },

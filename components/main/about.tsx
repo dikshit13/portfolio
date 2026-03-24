@@ -90,6 +90,7 @@ export const About = () => {
               <p className="text-sm sm:text-base text-gray-300">Email: dixitkamboj7@gmail.com</p>
               <p className="text-sm sm:text-base text-gray-300">GitHub: github.com/dikshit13</p>
               <p className="text-sm sm:text-base text-gray-300">LinkedIn: linkedin.com/in/dikshit1</p>
+              <p className="text-sm sm:text-base text-gray-300">Twitter: x.com/dikshitkambojj</p>
             </div>
           </div>
         </motion.div>
