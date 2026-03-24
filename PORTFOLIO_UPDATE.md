@@ -138,4 +138,3 @@ The site has smooth scrolling navigation:
 
 ---
 
-Your portfolio is now ready to impress recruiters! Make sure to add the resume and project images for a complete, professional look. 🚀
