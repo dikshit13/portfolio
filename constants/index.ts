@@ -422,7 +422,7 @@ export const SOFT_SKILLS = [
 
 export const NAV_LINKS = [
   {
-    title: "About me",
+    title: "About",
     link: "#about-me",
   },
   {
