@@ -76,26 +76,61 @@ Your professional portfolio now includes **9 comprehensive sections** organized 
 ## 📁 File Structure
 
 ```
-components/main/
-  ├── hero.tsx                 // Hero section (background video)
-  ├── navbar.tsx               // Navigation bar
-  ├── about.tsx                // About me + stats (UPDATED)
-  ├── skills.tsx               // Skills display
-  ├── projects.tsx             // Project showcase
-  ├── certifications.tsx        // Certifications (NEW)
-  ├── experience.tsx            // Training & experience (NEW)
-  ├── achievements.tsx          // Competitive programming (NEW)
-  ├── education.tsx             // Education timeline (NEW)
-  ├── contact.tsx               // Contact info & links (NEW)
-  ├── footer.tsx                // Footer
-  ├── star-background.tsx       // Star animation
-  └── encryption.tsx            // Extra component
-
-app/
-  └── page.tsx                 // Main page (UPDATED)
-
-constants/
-  └── index.ts                 // All data (UPDATED)
+portfolio/
+├── app/                      # Next.js app router
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── globals.css
+│   ├── favicon.ico
+│   └── icon.png
+│
+├── components/
+│   ├── main/                # Main UI sections
+│   │   ├── hero.tsx
+│   │   ├── navbar.tsx
+│   │   ├── about.tsx
+│   │   ├── skills.tsx
+│   │   ├── projects.tsx
+│   │   ├── certifications.tsx
+│   │   ├── experience.tsx
+│   │   ├── achievements.tsx
+│   │   ├── education.tsx
+│   │   ├── contact.tsx
+│   │   ├── footer.tsx
+│   │   └── star-background.tsx
+│   │
+│   └── sub/                 # Smaller reusable components
+│
+├── constants/               # Centralized data (projects, skills, etc.)
+│   └── index.ts
+│
+├── lib/                     # Utility & animation logic
+│   ├── motion.ts
+│   └── utils.ts
+│
+├── public/                  # Static assets
+│   ├── certifications/
+│   ├── profile/
+│   ├── projects/
+│   ├── skills/
+│   ├── videos/
+│   ├── hero-bg.svg
+│   ├── logo.png
+│   ├── lock-main.png
+│   ├── lock-top.png
+│   └── resume.pdf
+│
+├── config/
+│   └── index.ts
+│
+├── .eslintrc.json
+├── .gitignore
+├── next.config.js
+├── tailwind.config.ts
+├── postcss.config.js
+├── tsconfig.json
+├── package.json
+└── README.md
 ```
 
 ---
