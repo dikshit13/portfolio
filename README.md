@@ -1,4 +1,5 @@
-# 👨‍💻 Dikshit Kamboj
+<h1 align="center"> 👨‍💻 Dikshit Kamboj </h1>
+
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?size=25&duration=3000&color=00D9FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;MERN+Stack+Developer;DSA+Enthusiast;Building+Modern+Web+Applications" />
@@ -33,18 +34,17 @@
 
 ## 🌐 Live Portfolio
 
-👉 **[View Portfolio](https://your-portfolio.vercel.app)**
-*(Replace with your actual deployed link)*
+👉 **[View Portfolio](https://dikshit7-portfolio.vercel.app)**
+
 
 ---
 
-## 🎥 Portfolio Preview
+## 📸 Portfolio Preview
 
 <p align="center">
-  <img src="https://via.placeholder.com/900x500.png?text=Portfolio+Preview" />
+  <img src="./public/screenshots/home.png" width="800" alt="Portfolio Home Preview" />
 </p>
 
-> Replace this with your real screenshot or GIF
 
 ---
 
@@ -83,7 +83,7 @@ portfolio/
 │   ├── page.tsx
 │   ├── globals.css
 │   ├── favicon.ico
-│   └── *.png
+│   └── icon.png
 │
 ├── components/
 │   ├── main/                # Main UI sections
@@ -176,6 +176,12 @@ npm run dev
   <img src="https://github-readme-stats.vercel.app/api?username=dikshit13&show_icons=true&theme=tokyonight" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=dikshit13&theme=tokyonight" />
 </p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dikshit13&layout=compact&theme=tokyonight" />
+</p>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dikshit13&theme=tokyo-night" />
+
 
 ---
 
